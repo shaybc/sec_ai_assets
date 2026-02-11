@@ -1,13 +1,16 @@
 ---
-name: file-upload-validation
-description: File uploads must be strictly validated before processing.
-globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+globs:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.js'
+  - '**/*.jsx'
+name: File Upload Validation
 dcc_uri: sec/rules/file-upload-validation
-version: '1.0'
+description: File uploads must be strictly validated before processing.
+version: '1.1'
 dcc_tags:
   - security
 ---
-
 # File Upload Validation
 
 All uploads must be validated at the boundary.
