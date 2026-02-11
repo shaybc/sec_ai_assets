@@ -1,13 +1,16 @@
 ---
-name: jwt-strict-config
-description: JWT signing and verification must use explicit secure configuration.
-globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+globs:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.js'
+  - '**/*.jsx'
+name: JWT Strict Config
 dcc_uri: sec/rules/jwt-strict-config
-version: '1.0'
+description: JWT signing and verification must use explicit secure configuration.
+version: '1.1'
 dcc_tags:
   - security
 ---
-
 # JWT Strict Configuration
 
 JWT usage must be strict and explicit.
