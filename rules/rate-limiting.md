@@ -1,13 +1,16 @@
 ---
-name: rate-limiting
-description: APIs must enforce rate limiting to mitigate abuse.
-globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+globs:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.js'
+  - '**/*.jsx'
+name: Rate Limiting
 dcc_uri: sec/rules/rate-limiting
-version: '1.0'
+description: APIs must enforce rate limiting to mitigate abuse.
+version: '1.1'
 dcc_tags:
   - security
 ---
-
 # Rate Limiting
 
 APIs must limit abuse and brute force.
