@@ -1,13 +1,16 @@
 ---
-name: explicit-crypto
-description: Cryptographic operations must use explicit secure algorithms.
-globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+globs:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.js'
+  - '**/*.jsx'
+name: Explicit Crypto
 dcc_uri: sec/rules/explicit-crypto
-version: '1.0'
+description: Cryptographic operations must use explicit secure algorithms.
+version: '1.1'
 dcc_tags:
   - security
 ---
-
 # Cryptography
 
 Crypto defaults are forbidden.
