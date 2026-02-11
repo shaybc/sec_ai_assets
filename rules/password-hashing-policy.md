@@ -1,13 +1,16 @@
 ---
-name: password-hashing-policy
-description: Passwords must be hashed using bcrypt or argon2 with explicit cost parameters.
-globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+globs:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.js'
+  - '**/*.jsx'
+name: Password Hashing Policy
 dcc_uri: sec/rules/password-hashing-policy
-version: '1.0'
+description: Passwords must be hashed using bcrypt or argon2 with explicit cost parameters.
+version: '1.1'
 dcc_tags:
   - security
 ---
-
 # Password Hashing
 
 Passwords must use dedicated hashing algorithms.
