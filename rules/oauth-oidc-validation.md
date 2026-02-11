@@ -1,13 +1,16 @@
 ---
-name: oauth-oidc-validation
-description: OAuth and OIDC flows must validate anti-CSRF and token parameters.
-globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+globs:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.js'
+  - '**/*.jsx'
+name: OAuth OIDC Validation
 dcc_uri: sec/rules/oauth-oidc-validation
-version: '1.0'
+description: OAuth and OIDC flows must validate anti-CSRF and token parameters.
+version: '1.1'
 dcc_tags:
   - security
 ---
-
 # OAuth / OIDC Validation
 
 OAuth flows must validate all trust boundaries.
