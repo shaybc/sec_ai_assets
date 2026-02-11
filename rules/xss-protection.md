@@ -1,13 +1,16 @@
 ---
-name: xss-protection
-description: Prevent XSS by relying on React escaping and enforcing CSP.
-globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+globs:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.js'
+  - '**/*.jsx'
+name: XSS Protection
 dcc_uri: sec/rules/xss-protection
-version: '1.0'
+description: Prevent XSS by relying on React escaping and enforcing CSP.
+version: '1.1'
 dcc_tags:
   - security
 ---
-
 # XSS Protection
 
 User content must not execute as code.
