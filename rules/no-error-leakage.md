@@ -1,13 +1,16 @@
 ---
-name: no-error-leakage
-description: Errors must not expose internal details to clients.
-globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+globs:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.js'
+  - '**/*.jsx'
+name: No Error Leakage
 dcc_uri: sec/rules/no-error-leakage
-version: '1.0'
+description: Errors must not expose internal details to clients.
+version: '1.1'
 dcc_tags:
   - security
 ---
-
 # Error Handling
 
 Errors must not leak internal information.
