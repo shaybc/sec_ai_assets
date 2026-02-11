@@ -1,13 +1,16 @@
 ---
-name: csrf-protection
-description: All state-changing requests must enforce CSRF validation.
-globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+globs:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.js'
+  - '**/*.jsx'
+name: CSRF Protection
 dcc_uri: sec/rules/csrf-protection
-version: '1.0'
+description: All state-changing requests must enforce CSRF validation.
+version: '1.1'
 dcc_tags:
   - security
 ---
-
 # CSRF Protection
 
 All state-changing requests must be CSRF-protected.
