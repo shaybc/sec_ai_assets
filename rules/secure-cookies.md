@@ -1,13 +1,16 @@
 ---
-name: secure-cookies
-description: Authentication cookies must define all security attributes explicitly.
-globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+globs:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.js'
+  - '**/*.jsx'
+name: Secure Cookies
 dcc_uri: sec/rules/secure-cookies
-version: '1.0'
+description: Authentication cookies must define all security attributes explicitly.
+version: '1.1'
 dcc_tags:
   - security
 ---
-
 # Secure Cookies
 
 All sensitive cookies must be hardened.
