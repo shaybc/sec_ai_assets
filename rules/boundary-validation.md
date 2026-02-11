@@ -1,13 +1,16 @@
 ---
-name: boundary-validation
-description: All external input must be validated at system boundaries.
-globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+globs:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.js'
+  - '**/*.jsx'
+name: Boundary Validation
 dcc_uri: sec/rules/boundary-validation
-version: '1.0'
+description: All external input must be validated at system boundaries.
+version: '1.1'
 dcc_tags:
   - security
 ---
-
 # Input Validation
 
 All external input must be validated before use.
