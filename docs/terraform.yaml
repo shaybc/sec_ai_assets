@@ -1,0 +1,14 @@
+name: Terraform Security Best Practices
+dcc_uri: sec/docs/terraform
+version: "1.0"
+schema: v1
+description: Official Terraform recommended practices for secure infrastructure-as-code, workspace management, and secrets handling
+dcc_tags:
+  - security
+  - cloud
+  - terraform
+  - iac
+  - devops
+docs:
+  - name: Terraform Recommended Practices
+    startUrl: https://www.terraform.io/docs/cloud/guides/recommended-practices/
