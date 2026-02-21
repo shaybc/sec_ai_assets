@@ -4,6 +4,7 @@ dcc_uri: sec/prompts/threat-modeling-analysis
 version: '0.2'
 schema: ''
 description: Perform structured threat modeling for a new feature or system change.
+dcc_definition_type: prompt
 dcc_tags:
   - security
 invokable: true

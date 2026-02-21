@@ -3,6 +3,7 @@ dcc_uri: sec/docs/cis_aws_benchmark
 version: "1.0"
 schema: v1
 description: CIS AWS Foundations Benchmark providing prescriptive guidance for securing AWS accounts and resources
+dcc_definition_type: doc
 dcc_tags:
   - security
   - cloud

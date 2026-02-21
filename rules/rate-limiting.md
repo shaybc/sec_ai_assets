@@ -8,6 +8,7 @@ name: Rate Limiting
 dcc_uri: sec/rules/rate-limiting
 description: APIs must enforce rate limiting to mitigate abuse.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - security
 ---

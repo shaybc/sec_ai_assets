@@ -3,6 +3,7 @@ dcc_uri: sec/docs/cloudflare
 version: "1.0"
 schema: v1
 description: Official Cloudflare security documentation covering WAF, DDoS protection, Zero Trust, Access, and bot management
+dcc_definition_type: doc
 dcc_tags:
   - security
   - cloud

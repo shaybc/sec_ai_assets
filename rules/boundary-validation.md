@@ -8,6 +8,7 @@ name: Boundary Validation
 dcc_uri: sec/rules/boundary-validation
 description: All external input must be validated at system boundaries.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - security
 ---

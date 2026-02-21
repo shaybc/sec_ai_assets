@@ -8,6 +8,7 @@ name: JWT Strict Config
 dcc_uri: sec/rules/jwt-strict-config
 description: JWT signing and verification must use explicit secure configuration.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - security
 ---

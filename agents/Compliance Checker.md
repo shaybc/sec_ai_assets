@@ -3,6 +3,7 @@ name: Compliance Checker
 dcc_uri: sec/agents/compliance_checker
 description: Checks code/design changes for alignment with OWASP Top 10 and the team security policies; outputs a compliance report with gaps and required fixes.
 version: '1.0'
+dcc_definition_type: agent
 dcc_tags:
   - security
 ---

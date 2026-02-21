@@ -4,6 +4,7 @@ dcc_uri: sec/prompts/security-code-review
 version: '0.2'
 schema: ''
 description: Perform a structured security review of the provided code or diff.
+dcc_definition_type: prompt
 dcc_tags:
   - security
 invokable: true

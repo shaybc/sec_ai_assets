@@ -4,6 +4,7 @@ name: Cloud Security Rules
 dcc_uri: sec/rules/cloud_security_rules
 description: Security rules for cloud infrastructure, IAM, secrets, networking, CI/CD, and observability. Applies to developers, platform engineers, and admins working on cloud environments (AWS, GCP, Azure, Cloudflare, etc.).
 version: '1.0.0'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - cloud

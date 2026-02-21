@@ -8,6 +8,7 @@ name: CSRF Protection
 dcc_uri: sec/rules/csrf-protection
 description: All state-changing requests must enforce CSRF validation.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - security
 ---

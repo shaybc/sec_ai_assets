@@ -8,6 +8,7 @@ name: Password Hashing Policy
 dcc_uri: sec/rules/password-hashing-policy
 description: Passwords must be hashed using bcrypt or argon2 with explicit cost parameters.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - security
 ---

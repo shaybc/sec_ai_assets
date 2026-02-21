@@ -4,6 +4,7 @@ dcc_uri: sec/prompts/dependency-security-review
 version: '0.2'
 schema: ''
 description: Analyze dependencies and supply chain risks.
+dcc_definition_type: prompt
 dcc_tags:
   - security
 invokable: true

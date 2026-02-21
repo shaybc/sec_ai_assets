@@ -8,6 +8,7 @@ name: Secure Cookies
 dcc_uri: sec/rules/secure-cookies
 description: Authentication cookies must define all security attributes explicitly.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - security
 ---

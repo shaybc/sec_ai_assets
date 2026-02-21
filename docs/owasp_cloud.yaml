@@ -3,6 +3,7 @@ dcc_uri: sec/docs/owasp_cloud
 version: "1.0"
 schema: v1
 description: OWASP Cloud Security project covering cloud-specific vulnerabilities, threat modelling, and security controls
+dcc_definition_type: doc
 dcc_tags:
   - security
   - cloud

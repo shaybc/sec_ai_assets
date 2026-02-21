@@ -8,6 +8,7 @@ name: Explicit Crypto
 dcc_uri: sec/rules/explicit-crypto
 description: Cryptographic operations must use explicit secure algorithms.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - security
 ---

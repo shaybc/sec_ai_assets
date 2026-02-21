@@ -8,6 +8,7 @@ name: File Upload Validation
 dcc_uri: sec/rules/file-upload-validation
 description: File uploads must be strictly validated before processing.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - security
 ---

@@ -3,6 +3,7 @@ dcc_uri: sec/docs/aws_security_best_practices
 version: "1.0"
 schema: v1
 description: Official AWS security best practices covering IAM, data protection, infrastructure security, and compliance
+dcc_definition_type: doc
 dcc_tags:
   - security
   - cloud

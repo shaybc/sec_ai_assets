@@ -8,6 +8,7 @@ name: SQL Injection Prisma
 dcc_uri: sec/rules/sql-injection-prisma
 description: Prevent SQL injection by using Prisma parameterization only.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - security
 ---

@@ -10,6 +10,7 @@ globs:
   - '**/*.jsx'
 regex: ''
 alwaysApply: true
+dcc_definition_type: rule
 dcc_tags:
   - security
 ---

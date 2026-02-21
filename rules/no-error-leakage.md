@@ -8,6 +8,7 @@ name: No Error Leakage
 dcc_uri: sec/rules/no-error-leakage
 description: Errors must not expose internal details to clients.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - security
 ---

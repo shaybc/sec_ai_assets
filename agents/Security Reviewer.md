@@ -3,6 +3,7 @@ name: Security Reviewer
 dcc_uri: sec/agents/security_reviewer
 description: Review code changes for security risks using the team's security rules.
 version: '1.0'
+dcc_definition_type: agent
 dcc_tags:
   - security
 ---

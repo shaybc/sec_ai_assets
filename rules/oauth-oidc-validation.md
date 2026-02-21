@@ -8,6 +8,7 @@ name: OAuth OIDC Validation
 dcc_uri: sec/rules/oauth-oidc-validation
 description: OAuth and OIDC flows must validate anti-CSRF and token parameters.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - security
 ---
